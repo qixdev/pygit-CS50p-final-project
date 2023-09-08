@@ -21,15 +21,24 @@ python pygit.py [-a] [-n] [-t]
 * ```delf``` for deleting file
 * ```delp``` for deleting project
 -n -> name of a file or a project
--t -> additional text, like a path to project when creating it or comment when adding a commit _(only with crp, addc, retc, scid)_ \n
-**Example:**\n
+-t -> additional text, like a path to project when creating it or comment when adding a commit _(only with crp, addc, retc, scid)_
+
+**Example:**
+
 ```python pygit.py -a crp -n myproject -t C:/coding/myproject```
+
 **After creating a project, you need to activate it to be able to make commits and do other things**
+
 ```python pygit.py -a actp -n myproject```
+
 And then you're good to go and push commits:
+
 ```python pygit.py -a addc -n main.py -t "created main class"```
+
 As number of commits go up, you can list them:
+
 ```python pygit.py -a lc -n main.py```
+
 This outputs next:
 0 created main class
 1 deleted main class
