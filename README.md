@@ -21,8 +21,8 @@ python pygit.py [-a] [-n] [-t]
 * ```delf``` for deleting file
 * ```delp``` for deleting project
 -n -> name of a file or a project
--t -> additional text, like a path to project when creating it or comment when adding a commit _ _(only with crp, addc, retc, scid)_ _
-**Example:**
+-t -> additional text, like a path to project when creating it or comment when adding a commit _(only with crp, addc, retc, scid)_ \n
+**Example:**\n
 ```python pygit.py -a crp -n myproject -t C:/coding/myproject```
 **After creating a project, you need to activate it to be able to make commits and do other things**
 ```python pygit.py -a actp -n myproject```
