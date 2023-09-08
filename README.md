@@ -39,5 +39,5 @@ To return commit you need to know it's ID
 ```python pygit.py -a retc -n main.py -t 0``` 0 is ID of a commit
 In case if you want to quickly search for commit by it's description, there is:
 ````python pygit.py -a scid -n main.py -t "created main"```
-## I hope you find this useful or atleast rate my job##
+## I hope you find this useful or atleast rate my job
 
